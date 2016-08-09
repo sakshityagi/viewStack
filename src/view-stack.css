@@ -1,7 +1,21 @@
+ /*sample styling for transitions from one view to another, you can replace it with your styles also */
+
 .slide {
-
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x:hidden;
+    overflow-y:auto;
+    -webkit-overflow-scrolling:touch;
+    background-color:#fff;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    -moz-transition: -moz-transform 0.2s ease-in-out;
+    -o-transition: -o-transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
 }
-
 .content {
 
 }

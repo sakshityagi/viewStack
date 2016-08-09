@@ -1,0 +1,29 @@
+{
+  "name": "View Stack",
+  "description": "It provides you an easy way to manage your angular js multi view mobile application",
+  "main": [
+    "src/view-stack.js",
+    "src/view-stack.css"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "angular": "^1.5.8"
+  },
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "stack",
+    "viewstack",
+    "mobile"
+  ],
+  "authors": [
+    "Sakshi Tyagi <tyagi.sakshi09@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
