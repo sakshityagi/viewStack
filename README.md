@@ -44,3 +44,5 @@ ViewStack.pop();
 ```
 In this way you can push multiple views and when required pop the views accordingly.
 
+Note : Please make sure to inlcude angular js and jquery before using this package.
+
